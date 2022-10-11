@@ -31,6 +31,24 @@ a {
     font-size: 14px;
 }
 
+/*-------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Montserrat', sans-serif;
+    color: #fafafa;
+}
+
 /*-------------------------------Heading */
 
 header {
@@ -71,7 +89,7 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 35px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -96,7 +114,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 300px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -131,4 +149,13 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/*-------------------------------Footer */
+
+footer {
+    background-color: #606060FF;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
