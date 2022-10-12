@@ -5,6 +5,10 @@ body {
 
 /*-------------------------------Colors */
 
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
 .bg-color-name-title {
     background-color: #676767;
 }
@@ -45,13 +49,32 @@ h4 {
 }
 
 .general-sub {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Prompt', sans-serif;
     color: #fafafa;
 }
 
 .inline-block {
     display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    
 }
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: 'Prompt', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 
 /*-------------------------------Heading */
 
@@ -207,4 +230,15 @@ footer {
 
 #footer-details {
     padding: 25px;
+}
+
+/*-------------------------------Three Reasons */
+
+.three-reasons-icon {
+    font-size: 25px;
+    color: #949398FF;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
