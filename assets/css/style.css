@@ -56,7 +56,7 @@ h4 {
 .inline-block {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 
 .row-table {
@@ -196,7 +196,7 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-} 
+}
 
 .cv-pdf i:hover {
     color: rgba(0, 0, 0, 0.497);
