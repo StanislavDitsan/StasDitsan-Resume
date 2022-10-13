@@ -35,6 +35,10 @@ a {
     font-size: 14px;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
 /*-------------------------------Special paddings/margins/text */
 
 h1,
